@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-preview.1",
+  "version": "0.2.0-preview.2",
   "algorithm": "SHA256",
   "excluded": [
     "manifest.json",
@@ -37,6 +37,16 @@
       "sha256": "2f1ec84a6c603fa1b88c153fd77c7a01f7fe894daada9e7013b0f705978e85de"
     },
     {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/documentation_checks.json",
+      "bytes": 263,
+      "sha256": "b55eb75e539d0a3922435fbfbb0fe73b0465ab781b802811cfbb99cdc075db3e"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/documentation_checks.json.meta",
+      "bytes": 165,
+      "sha256": "4dcdac8896144297a518fc1e7f5209fc04b7e82acab65c27b01cc44e2e940b6c"
+    },
+    {
       "path": "Assets/形态建拟合器/Documentation/audit-evidence/fixed_camera_comparison.json",
       "bytes": 371,
       "sha256": "49b932af10265ae0b77ec3bcb0b2ee0523b42c07069a3532cb96f7d2426e68f6"
@@ -55,6 +65,16 @@
       "path": "Assets/形态建拟合器/Documentation/audit-evidence/objective_checks.json.meta",
       "bytes": 158,
       "sha256": "79a919e1e11d9af5c0f94f276e934e84660d072bf8acaad138e807afdccfdfae"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/package_checks-preview.2.json",
+      "bytes": 1652,
+      "sha256": "052f6ac8972e09272f0a3d351c9b4aa4091748fa4d03f7969eee909058e036f8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/package_checks-preview.2.json.meta",
+      "bytes": 165,
+      "sha256": "a460ddf708ec4c71ea978097f8a3933df6f29a213ab67a959da606127d359dad"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/audit-evidence/package_checks.json",
@@ -93,8 +113,8 @@
     },
     {
       "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md",
-      "bytes": 1508,
-      "sha256": "38aa8c04fb78888f4f1eda1a9cbac13698679abd66270a0fb55e060b8bd654b6"
+      "bytes": 1958,
+      "sha256": "2419ab0600d0e84cb61b870cad37182e50afb5ac34b574c86429b94130031a69"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md.meta",
@@ -148,8 +168,8 @@
     },
     {
       "path": "Assets/形态建拟合器/Documentation/使用说明.zh-CN.md",
-      "bytes": 7476,
-      "sha256": "60f02ee4123950c6aa094a6d46590d954fc774c96954f57357acf0b9804ca487"
+      "bytes": 6546,
+      "sha256": "eda0dfce7407b04617578efb27d6c83cc9c93924268c1666fdfce2734d948bee"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/使用说明.zh-CN.md.meta",
@@ -157,9 +177,19 @@
       "sha256": "7561c471538ce15a9ff4ca657d39e5669b0bd6be0105d34a28135d0fa74f11d3"
     },
     {
+      "path": "Assets/形态建拟合器/Documentation/升级与卸载.zh-CN.md",
+      "bytes": 1538,
+      "sha256": "b34763d24e223333f0b61907df375f2226387c91c8308054b705f06ddece1186"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/升级与卸载.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "6641f438e840743dcd5cd3f1de5a777f705f10b023cb083043d525ddcc798599"
+    },
+    {
       "path": "Assets/形态建拟合器/Documentation/审计报告.zh-CN.md",
-      "bytes": 9993,
-      "sha256": "367379c01c12a2c4ced1059822249707c2521b458d503f93b9fe1f5b72dbae9e"
+      "bytes": 10382,
+      "sha256": "800e0e4eb067c7e61704ae7b66ea4adb2457803616b95e14a8d16c88da0a1665"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/审计报告.zh-CN.md.meta",
@@ -178,8 +208,8 @@
     },
     {
       "path": "Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md",
-      "bytes": 4416,
-      "sha256": "2847c4ada23e30150f347aa94fb450a7185324f737d056fecc8da965159344bd"
+      "bytes": 4379,
+      "sha256": "012d7008e75b7b2aae225fc882aeb5172725de3a8350d84ad169a51c688435ef"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md.meta",
@@ -678,13 +708,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2468,
-      "sha256": "0bbad84a42883f1816b550f98c895f571e8d9e68b6d32d12370942fd85dd6ad3"
+      "bytes": 2381,
+      "sha256": "e8b736466b1966935ca6ab54ec1f56c203720d5eccefa425ed45dcd06c65fa09"
     },
     {
       "path": "release.json",
-      "bytes": 6712,
-      "sha256": "521d09e74241172f38979f4574f7a392ba426320bc6ca079066d65293e69cc41"
+      "bytes": 6879,
+      "sha256": "fff8d5816514f5914744be428cc26aae2aeaf3b410cb493a11f497aae42949d3"
     },
     {
       "path": "Verify-Package.ps1",

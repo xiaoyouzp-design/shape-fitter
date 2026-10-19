@@ -1,33 +1,36 @@
-# 形态建拟合器 0.2.0-preview.1
+# 形态建拟合器
 
-[下载安装包与完整 ZIP](https://github.com/xiaoyouzp-design/shape-fitter/releases/tag/v0.2.0-preview.1) · [版本列表](https://github.com/xiaoyouzp-design/shape-fitter/releases)
+Unity 编辑器中的脸部形态键拟合工具：根据参考图片或另一个模型调整当前模型，并支持预览、应用、动画导出和拟合存档。
 
-升级旧版：先关闭 Unity，再运行 ZIP 内 `Install.ps1`。脚本会备份并将旧 `Assets/ModelCard` 迁移到 `Assets/形态建拟合器`，保留额外文件和 `.meta`。不要把新目录直接复制到旧目录旁；两者同时存在会导致重复程序集。若使用 unitypackage 升级，请先在 Unity Project 窗口将旧目录改名为“形态建拟合器”，待资源刷新后再导入。
+[下载安装包与完整 ZIP](https://github.com/xiaoyouzp-design/shape-fitter/releases/tag/v0.2.0-preview.2)
 
-适用于 Unity 编辑器的图片拟合、模型间拟合、模型坐标构建与拟合存档工具。当前版本为原型预览版，验证环境为 **Windows / Unity 2022.3.22f1**。
+## 安装
 
-最方便的安装方式：导入同发行目录的 `形态建拟合器-0.2.0-preview.1.unitypackage`。也可以将本包 `Assets/形态建拟合器` 连同 `.meta` 文件复制到工程，或使用下方安装脚本。三种方式任选其一，勿在不同目录重复安装同一程序集。
+已验证环境：Windows / Unity 2022.3.22f1。当前版本：0.2.0-preview.2（预览版）。
 
-```powershell
-# 在解压目录执行；已有版本会先备份到工程根目录的 形态建拟合器备份。
-.\Install.ps1 -ProjectPath '你的 Unity 工程目录'
-# 包内文件校验（建议在导入 Unity 之前对解压包执行）
-.\Verify-Package.ps1
-```
+1. 在下载页获取 `.unitypackage` 安装包并导入 Unity。离线发行文件名为 `形态建拟合器-0.2.0-preview.2.unitypackage`。
+2. 等待编译完成，打开顶部菜单 **形态键拟合**。
+3. 选择一个带脸部形态键的模型，按下面的流程开始使用。
 
-菜单入口：
+插件安装在 `Assets/形态建拟合器`。手工标注和拟合无需 Python；自动标点为可选功能，见 [自动标点安装](Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md)。
 
-- `形态键拟合 / 图片拟合`
-- `形态键拟合 / 模型拟合`
-- `形态键拟合 / 构建模型坐标`
-- `形态键拟合 / 拟合存档`
+## 开始使用
 
-手工标注、图片拟合和模型拟合无需 Python。自动标点是可选功能，需自行安装 Python 3.12、检测依赖及模型文件；本包提供适配脚本和固定版本下载入口，**不包含检测权重、人物模型或参考图片**。
+| 目标 | 操作流程 |
+| --- | --- |
+| 根据图片调整模型 | 构建模型坐标 → 图片拟合 → 标记或描出图片特征 → 拟合并预览 |
+| 让模型接近另一个模型 | 分别构建两个模型的坐标 → 模型拟合 → 预览结果 |
+| 使用拟合结果 | 应用到模型、保存为动画，或保存拟合存档 |
+| 查看已保存结果 | 打开“拟合存档”查看预览，再应用或导出 |
+
+模型坐标可以自动生成候选，使用前需检查眼、鼻、嘴和脸廓的位置。图片侧可手工点选或描边，也可安装自动标点引擎后生成候选。详见 [使用说明](Assets/形态建拟合器/Documentation/使用说明.zh-CN.md)。
+
+## 文档
 
 - [使用说明](Assets/形态建拟合器/Documentation/使用说明.zh-CN.md)
-- [自动标点安装](Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md)
-- [审计报告](Assets/形态建拟合器/Documentation/审计报告.zh-CN.md)
-- [变更记录](Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md)
-- [来源与许可](Assets/形态建拟合器/Documentation/来源与许可.zh-CN.md)
+- [可选自动标点安装](Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md)
+- [版本记录](Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md)
+- [升级与卸载](Assets/形态建拟合器/Documentation/升级与卸载.zh-CN.md)（已安装用户）
+- [审计报告](Assets/形态建拟合器/Documentation/审计报告.zh-CN.md) · [来源与许可](Assets/形态建拟合器/Documentation/来源与许可.zh-CN.md)
 
-本版本使用指定模型的坐标映射和可用形态键，不能保证任意 VRM 或任意真实照片都能可靠恢复。旧 `VRC Model Card` 卡片功能作为底层依赖一并保留。
+本包不含人物模型、参考照片或检测权重。当前是针对指定模型和坐标映射的原型，不能保证任意 VRM 或任意真实照片都能可靠恢复。

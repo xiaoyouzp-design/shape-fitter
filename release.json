@@ -1,6 +1,6 @@
 {
   "name": "形态建拟合器",
-  "version": "0.2.0-preview.1",
+  "version": "0.2.0-preview.2",
   "date": "2026-10-19",
   "unityTestVersion": "2022.3.22f1",
   "status": "prototype-preview",
@@ -182,5 +182,10 @@
     "AI model weights",
     "Python environments",
     "UnityAgent/MCP configuration"
-  ]
+  ],
+  "documentationChanges": [
+    "New-user README and install guide",
+    "Separate upgrade and uninstall guide"
+  ],
+  "implementationSameAs": "0.2.0-preview.1"
 }

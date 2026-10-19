@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0-preview.2",
+  "passed": true,
+  "checks": {
+    "Assets/形态建拟合器/Editor_unchanged": true,
+    "Assets/形态建拟合器/Tools_unchanged": true,
+    "installation_scripts_unchanged": true,
+    "no_legacy_intro": true
+  }
+}
