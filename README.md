@@ -1,5 +1,7 @@
 # 形态建拟合器 0.2.0-preview.1
 
+[下载安装包与完整 ZIP](https://github.com/xiaoyouzp-design/shape-fitter/releases/tag/v0.2.0-preview.1) · [版本列表](https://github.com/xiaoyouzp-design/shape-fitter/releases)
+
 升级旧版：先关闭 Unity，再运行 ZIP 内 `Install.ps1`。脚本会备份并将旧 `Assets/ModelCard` 迁移到 `Assets/形态建拟合器`，保留额外文件和 `.meta`。不要把新目录直接复制到旧目录旁；两者同时存在会导致重复程序集。若使用 unitypackage 升级，请先在 Unity Project 窗口将旧目录改名为“形态建拟合器”，待资源刷新后再导入。
 
 适用于 Unity 编辑器的图片拟合、模型间拟合、模型坐标构建与拟合存档工具。当前版本为原型预览版，验证环境为 **Windows / Unity 2022.3.22f1**。
