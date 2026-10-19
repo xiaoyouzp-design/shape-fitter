@@ -1,0 +1,18 @@
+[
+  {
+    "method": "legacy",
+    "balancedRmsePixels": 10.2523727,
+    "dataLoss": 1.35318744,
+    "upperBoundary": 17,
+    "allBoundary": 33,
+    "weightMean": 52.3333321
+  },
+  {
+    "method": "repaired",
+    "balancedRmsePixels": 11.1410809,
+    "dataLoss": 1.39613867,
+    "upperBoundary": 1,
+    "allBoundary": 20,
+    "weightMean": 19.083334
+  }
+]

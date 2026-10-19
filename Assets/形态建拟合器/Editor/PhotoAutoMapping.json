@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "templateId": "face-semantic-42-v1",
+  "description": "MediaPipe 478 点到图片语义点的候选映射，不是模型顶点映射。左右按画面。眉取上下边中线，唇取开口内边，轮廓为近似。必须检查遮挡、视角和风格偏差。",
+  "points": {
+    "left_eye_outer": [33], "left_eye_inner": [133],
+    "left_eye_upper": [159], "left_eye_lower": [145],
+    "right_eye_outer": [263], "right_eye_inner": [362],
+    "right_eye_upper": [386], "right_eye_lower": [374],
+    "nose_tip": [1], "mouth_left": [78], "mouth_right": [308], "chin": [152],
+    "left_eye_upper_outer": [161], "left_eye_upper_inner": [158],
+    "left_eye_lower_outer": [163], "left_eye_lower_inner": [153],
+    "left_brow_outer": [70,46], "left_brow_outer_mid": [63,53],
+    "left_brow_middle": [105,52], "left_brow_inner_mid": [66,65], "left_brow_inner": [107,55],
+    "right_eye_upper_outer": [388], "right_eye_upper_inner": [385],
+    "right_eye_lower_outer": [390], "right_eye_lower_inner": [380],
+    "right_brow_outer": [300,276], "right_brow_outer_mid": [293,283],
+    "right_brow_middle": [334,282], "right_brow_inner_mid": [296,295], "right_brow_inner": [336,285],
+    "mouth_upper_left": [81], "mouth_lower_left": [178],
+    "mouth_upper_center": [13], "mouth_lower_center": [14],
+    "mouth_upper_right": [311], "mouth_lower_right": [402],
+    "left_face_cheek": [234], "left_face_lower_cheek": [132], "left_face_jaw": [172],
+    "right_face_cheek": [454], "right_face_lower_cheek": [361], "right_face_jaw": [397]
+  }
+}

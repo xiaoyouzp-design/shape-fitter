@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "same_raw_curve_basic_dense_objective_0",
+    "same_raw_curve_basic_dense_objective_1",
+    "same_raw_curve_basic_dense_objective_2",
+    "same_raw_curve_basic_dense_objective_3",
+    "same_raw_curve_basic_dense_objective_4",
+    "correspondence_order_and_arc_endpoints_preserved",
+    "correspondence_sliding_bounded",
+    "region_sample_weights_sum_to_one",
+    "current_manual_edits_override_historical_stroke",
+    "candidate_probe_observations_independent_of_detail_count",
+    "exact_synthetic_landmarks_recover_zero_residual",
+    "exact_synthetic_model_contours_recover_zero_residual",
+    "deleted_base_point_falls_back_to_current_explicit_observations",
+    "original_annotation_unchanged",
+    "scene_weights_restored"
+  ]
+}

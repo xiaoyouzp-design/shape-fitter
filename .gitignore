@@ -1,0 +1,15 @@
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+.vs/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+.anime_auto_venv/
+.photo_auto_venv/
+dist/
+*.unitypackage
+*.zip

@@ -1,0 +1,485 @@
+{
+  "schema": 1,
+  "id": "plum",
+  "description": "plum explicit 42-anchor experimental coordinate profile",
+  "vertexCount": 9177,
+  "blendShapeCount": 757,
+  "topologySha256": "9925bd99f85bded9a6d654eb8ea1bf35884f9045285c1fb11b32bc8b5f870d66",
+  "shapeNamesSha256": "a0c885344192564789e789486a074fd730d4971850419f929c7cf870dbddba71",
+  "definitionSha256": "bee088c873c2b923064ec0d55ad85c9bacce5b949520fa3dc119488de2958802",
+  "keys": [
+    "eye_up",
+    "eye_down",
+    "eye_close",
+    "eye_far",
+    "eye_width_up",
+    "eye_width_down",
+    "eye_size_big",
+    "eye_size_small",
+    "nose_up",
+    "nose_down",
+    "mouth_up",
+    "mouth_down",
+    "mouth_forward",
+    "mouth_back",
+    "mouth_wide_ALL",
+    "mouth_narrow_ALL",
+    "cheek_wide",
+    "cheek_narrow",
+    "jaw_long",
+    "jaw_short",
+    "jaw_sharp",
+    "jaw_round",
+    "eyebrow_up",
+    "eyebrow_down",
+    "eyebrow_close",
+    "eyebrow_far",
+    "eyebrow_angry_1",
+    "eyebrow_tare",
+    "mouth_A_1",
+    "mouth_smile_1",
+    "Face_mature",
+    "Face_young",
+    "eye_height_up",
+    "eye_height_down",
+    "eyelid_up",
+    "eyelid_down",
+    "eyelid_middle_up",
+    "eyelid_middle_down",
+    "eyelid_inner_up_1",
+    "eyelid_inner_down_1",
+    "eyelid_outer_up_1",
+    "eyelid_outer_down_1",
+    "lower_eyelid_up_1",
+    "lower_eyelid_down_1",
+    "cheek_up",
+    "cheek_down",
+    "eyebrow_inner_up",
+    "eyebrow_inner_down",
+    "eyebrow_outer_up",
+    "eyebrow_outer_down"
+  ],
+  "points": [
+    {
+      "id": "left_eye_outer",
+      "label": "画面左眼：外眼角",
+      "vertices": [
+        1318
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_inner",
+      "label": "画面左眼：内眼角",
+      "vertices": [
+        630
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_upper",
+      "label": "画面左眼：上眼睑中点",
+      "vertices": [
+        649
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_lower",
+      "label": "画面左眼：下眼睑中点",
+      "vertices": [
+        1325
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_outer",
+      "label": "画面右眼：外眼角",
+      "vertices": [
+        1186
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_inner",
+      "label": "画面右眼：内眼角",
+      "vertices": [
+        529
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_upper",
+      "label": "画面右眼：上眼睑中点",
+      "vertices": [
+        551
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_lower",
+      "label": "画面右眼：下眼睑中点",
+      "vertices": [
+        1434
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "nose_tip",
+      "label": "鼻尖（看不清可跳过）",
+      "vertices": [
+        3890
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_left",
+      "label": "画面左嘴角",
+      "vertices": [
+        1260
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_right",
+      "label": "画面右嘴角",
+      "vertices": [
+        978
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "chin",
+      "label": "下巴最低点",
+      "vertices": [
+        3916
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_upper_outer",
+      "label": "画面左眼：上眼睑外侧四分点",
+      "vertices": [
+        654
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_upper_inner",
+      "label": "画面左眼：上眼睑内侧四分点",
+      "vertices": [
+        638
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_lower_outer",
+      "label": "画面左眼：下眼睑外侧四分点",
+      "vertices": [
+        1447
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_eye_lower_inner",
+      "label": "画面左眼：下眼睑内侧四分点",
+      "vertices": [
+        1330
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_brow_outer",
+      "label": "画面左眉：外端",
+      "vertices": [
+        452
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_brow_outer_mid",
+      "label": "画面左眉：外半中点",
+      "vertices": [
+        3205
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_brow_middle",
+      "label": "画面左眉：中点",
+      "vertices": [
+        3213
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_brow_inner_mid",
+      "label": "画面左眉：内半中点",
+      "vertices": [
+        3247
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_brow_inner",
+      "label": "画面左眉：内端",
+      "vertices": [
+        3233
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_upper_outer",
+      "label": "画面右眼：上眼睑外侧四分点",
+      "vertices": [
+        556
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_upper_inner",
+      "label": "画面右眼：上眼睑内侧四分点",
+      "vertices": [
+        542
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_lower_outer",
+      "label": "画面右眼：下眼睑外侧四分点",
+      "vertices": [
+        1173
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_eye_lower_inner",
+      "label": "画面右眼：下眼睑内侧四分点",
+      "vertices": [
+        1429
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_brow_outer",
+      "label": "画面右眉：外端",
+      "vertices": [
+        426
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_brow_outer_mid",
+      "label": "画面右眉：外半中点",
+      "vertices": [
+        2775
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_brow_middle",
+      "label": "画面右眉：中点",
+      "vertices": [
+        2783
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_brow_inner_mid",
+      "label": "画面右眉：内半中点",
+      "vertices": [
+        2819
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_brow_inner",
+      "label": "画面右眉：内端",
+      "vertices": [
+        2803
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_upper_left",
+      "label": "嘴部：上唇开口边缘左半",
+      "vertices": [
+        1468
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_lower_left",
+      "label": "嘴部：下唇开口边缘左半",
+      "vertices": [
+        884
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_upper_center",
+      "label": "嘴部：上唇开口边缘中点",
+      "vertices": [
+        1193
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_lower_center",
+      "label": "嘴部：下唇开口边缘中点",
+      "vertices": [
+        903
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_upper_right",
+      "label": "嘴部：上唇开口边缘右半",
+      "vertices": [
+        1203
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "mouth_lower_right",
+      "label": "嘴部：下唇开口边缘右半",
+      "vertices": [
+        950
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_face_cheek",
+      "label": "画面左脸：颧颊轮廓",
+      "vertices": [
+        774
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_face_lower_cheek",
+      "label": "画面左脸：下颊轮廓",
+      "vertices": [
+        807
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "left_face_jaw",
+      "label": "画面左脸：下颌轮廓",
+      "vertices": [
+        811
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_face_cheek",
+      "label": "画面右脸：颧颊轮廓",
+      "vertices": [
+        1051
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_face_lower_cheek",
+      "label": "画面右脸：下颊轮廓",
+      "vertices": [
+        1053
+      ],
+      "weights": [
+        1.0
+      ]
+    },
+    {
+      "id": "right_face_jaw",
+      "label": "画面右脸：下颌轮廓",
+      "vertices": [
+        1015
+      ],
+      "weights": [
+        1.0
+      ]
+    }
+  ],
+  "provenance": "Explicit model-specific anchors; Plum opening-rim/shape-response candidates reviewed on topology atlas. Face side anchors are frontal approximations; mapping uncertainty is not measured."
+}

@@ -1,0 +1,186 @@
+{
+  "name": "形态建拟合器",
+  "version": "0.2.0-preview.1",
+  "date": "2026-10-19",
+  "unityTestVersion": "2022.3.22f1",
+  "status": "prototype-preview",
+  "sourceFiles": [
+    {
+      "path": "Editor/AnimePhotoMapping.json",
+      "sha256": "b6c8d66480aeb979caa6283269c1fd7e3ef0aee952c601468e88ba90628098b2"
+    },
+    {
+      "path": "Editor/AvatarFitRenderer.cs",
+      "sha256": "5f17a2a1c0b44fc64f3ef745f6ee522570d49a22e4a4ce07ab5f767bd6539192"
+    },
+    {
+      "path": "Editor/CommonCoordinateArchive.cs",
+      "sha256": "50fb6515f400b1f073f1065d94545fc3826809bf89cf9ed736774d2c7f433c39"
+    },
+    {
+      "path": "Editor/CommonCoordinateAuto.cs",
+      "sha256": "4bf6459494303448c3ac1a2ab2774b548eefc5902b175f57f4101c5f6f7e8749"
+    },
+    {
+      "path": "Editor/CommonCoordinateBuilderWindow.cs",
+      "sha256": "90b42be03e0d3c6d71c0dae9d0648eb7998da3dd232bd76ef5248adfb66c790c"
+    },
+    {
+      "path": "Editor/CommonCoordinateCalibration.cs",
+      "sha256": "1df9a2d49e5fcd27d600c095ebb7e016c43bd9b890cf4069881b9c0973398ef3"
+    },
+    {
+      "path": "Editor/CommonCoordinateDefinitions.json",
+      "sha256": "bee088c873c2b923064ec0d55ad85c9bacce5b949520fa3dc119488de2958802"
+    },
+    {
+      "path": "Editor/CommonCoordinateFitWindow.cs",
+      "sha256": "01fd4ccb46eaefa75259b2b17822d7028090a747f1fd858762e8b603405214cd"
+    },
+    {
+      "path": "Editor/CommonCoordinateModel.cs",
+      "sha256": "a8b71f6ee45f7a0e8c7ebd233e83abd8dd53dae33b1826e71206826d89e2c451"
+    },
+    {
+      "path": "Editor/CommonCoordinateProfileStore.cs",
+      "sha256": "c3d1e886314f482f14dac8fdaf48bdbfa9636b0ff0d3700efc10b7f3e03a5101"
+    },
+    {
+      "path": "Editor/CommonCoordinateSolver.cs",
+      "sha256": "5d1a035580e790439b347958fdd0b6130c4d68f4cc099688b1f2c4a158342a26"
+    },
+    {
+      "path": "Editor/FitPreviewCapture.cs",
+      "sha256": "82ee61029dcb1ecab2f08cb6066abf3b818e3918fb4b93e7bef176a1dbaf826b"
+    },
+    {
+      "path": "Editor/FittingOptimizer.cs",
+      "sha256": "0be279f5397e4a762cdd454638e431a5c5acc467a092916555431e0329a3a610"
+    },
+    {
+      "path": "Editor/GenericPhotoModel.cs",
+      "sha256": "7080511b888ec3d8a2c43467975ad3f1534ce5bb967df6cb78bb15edfe51c44a"
+    },
+    {
+      "path": "Editor/GenericPhotoWindow.cs",
+      "sha256": "f1558db08587868b454f650b41bfc971060dea2d823d087271bf83c4b6ec20bd"
+    },
+    {
+      "path": "Editor/LandmarkCorrespondence.cs",
+      "sha256": "4989a59edae8972ad3ec10c0a20276aaf51ec2853e09173350767ab4bf114ff5"
+    },
+    {
+      "path": "Editor/Localization.cs",
+      "sha256": "02e766da6589aeb2d3c92795f4f2a5e73c4acb66331a31dc92addb73f162c521"
+    },
+    {
+      "path": "Editor/ModelCardData.cs",
+      "sha256": "f066b06c740ec115218934f6afb3806427aba07dcff269ad450f40639c970561"
+    },
+    {
+      "path": "Editor/ModelCardFitWindow.cs",
+      "sha256": "11e9866ed01e65be2018d748e5da8ef762920948cb38c44166107bdd1875f328"
+    },
+    {
+      "path": "Editor/ModelCardFxGenerator.cs",
+      "sha256": "914f124ceb6347bfb71ea6a977ea6990aa25d5c39c417a55f54ff3f8dacd5618"
+    },
+    {
+      "path": "Editor/ModelCardIO.cs",
+      "sha256": "185fc053137dea1801e56f1b1e36ec73f001180c6d3d15856ac59bbae2b9fe70"
+    },
+    {
+      "path": "Editor/ModelCardMenu.cs",
+      "sha256": "d897796d835ef60001c0953bd0a926b397a185098f4a416b1692b89f2ec7a765"
+    },
+    {
+      "path": "Editor/ModelCardWindow.cs",
+      "sha256": "dade767582fc78a3cba11b74b81b3a70259bc70738dd134a194b82781ee6ead6"
+    },
+    {
+      "path": "Editor/PhotoAutoLandmarks.cs",
+      "sha256": "ae640168a2203a47ee66323ba6ec3727a6b3e497a7ea55779041841e7cea9d36"
+    },
+    {
+      "path": "Editor/PhotoAutoMapping.json",
+      "sha256": "b059423c11f16842128c8b48d12e50eef59912b192946c2ac7479a07013b3ef6"
+    },
+    {
+      "path": "Editor/PhotoContourEditor.cs",
+      "sha256": "225b855d8e59ca01208992f9f6055628bda7fa72daf8f0e0102eb32076c52600"
+    },
+    {
+      "path": "Editor/PhotoContourObjective.cs",
+      "sha256": "6c2fe922c95ceb5c00c595f34ca8c9e817d321a3e652a9b0aeec225355b4f70c"
+    },
+    {
+      "path": "Editor/PhotoDetailLandmarks.cs",
+      "sha256": "94ee45a7c5db60ef32c1feebd4ff2a9dd151def7782598e72628cffbc57fcbb7"
+    },
+    {
+      "path": "Editor/PhotoFitResultActions.cs",
+      "sha256": "88206c53e2bff7ad8024193188fa32af35c81a43e3919990cab364aadcabff64"
+    },
+    {
+      "path": "Editor/PhotoImageViewport.cs",
+      "sha256": "0ea8eb5d2bf6978c7aab6fb2265a42f99b4b78d5d36e99552f04af4aa65255fb"
+    },
+    {
+      "path": "Editor/PhotoLandmarkTemplate.cs",
+      "sha256": "f650bb8fc6a92822a8b0045e1fc3a93bb22c6ac667533c699773287274f1c6d8"
+    },
+    {
+      "path": "Editor/PhotoManualEditor.cs",
+      "sha256": "8849f5394298e2baee5c9a87f8be87e53d8e29ef1f4deb91cd51b799cd4e1b5a"
+    },
+    {
+      "path": "Editor/PhotoTraceEditor.cs",
+      "sha256": "07459c15a6ce838b46359afeef5619a771a824295d9ec8dfa6b0bfe2a90ae8d5"
+    },
+    {
+      "path": "Editor/PhotoTraceSampler.cs",
+      "sha256": "dd9244909c53d6b58bf7b08cc35a10563bb106ac03e8153cf5621e31b5842a54"
+    },
+    {
+      "path": "Editor/PlumCoordinateProfile.json",
+      "sha256": "6f33941411f10988e1ccd697fa726ee1e832e9a2bb910a7ca9a1fbe5584737a4"
+    },
+    {
+      "path": "Editor/PngCodec.cs",
+      "sha256": "306d81a24828943b16a56f4de7e16423082e9bd85424622d64cf2ea914c17b67"
+    },
+    {
+      "path": "Editor/QrCode.cs",
+      "sha256": "3955d0f7409d0861646bcac4b4c7ffe02fe36b77c2d6609d10145eb99151aa82"
+    },
+    {
+      "path": "Editor/RuruneCoordinateProfile.json",
+      "sha256": "67da6dc4a334766e725d3d9c88adbf804c334f14236202057a8ca25ae73520a1"
+    },
+    {
+      "path": "Editor/RuruneLandmarkTemplate.json",
+      "sha256": "202d7b5bc599a0fbcfe2ec35d7b11d9aeb3769319040eb2ca1f5669df7d6a803"
+    },
+    {
+      "path": "Editor/SilhouetteMask.cs",
+      "sha256": "e0734c971331d72061b9c7a518236f2d30837d8736cccbad2aa223081fabf4b4"
+    },
+    {
+      "path": "Editor/VrcModelCard.Editor.asmdef",
+      "sha256": "6bc40fdaa22d1efa9140eb47f72534dfdf2ecca6325a711b4e79b43ab7b18053"
+    }
+  ],
+  "releaseCodeChanges": [
+    "Editor/PhotoAutoLandmarks.cs: portable Chinese paths and documentation references",
+    "Editor/ModelCardFxGenerator.cs: Chinese generated output directory",
+    "Tools/AutoLandmarks/setup_anime_models.py: configurable output directory"
+  ],
+  "notIncluded": [
+    "avatar/model assets",
+    "reference photographs",
+    "annotations and personal archives",
+    "AI model weights",
+    "Python environments",
+    "UnityAgent/MCP configuration"
+  ]
+}

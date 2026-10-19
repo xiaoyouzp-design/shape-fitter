@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "five_starts_completed",
+    "solution_selected_by_actual_total_objective",
+    "data_and_prior_reported_separately",
+    "all_original_annotations_preserved",
+    "scene_weights_restored_after_preview",
+    "archive_retains_new_objective_and_correspondences",
+    "animation_exports_current_weights",
+    "exports_preserve_preview"
+  ]
+}

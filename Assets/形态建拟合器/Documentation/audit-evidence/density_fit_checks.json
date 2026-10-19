@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "maxWeightDifference": 0.0,
+  "basicLoss": 1.59665978,
+  "denseLoss": 1.59665978,
+  "note": "Same raw strokes regenerated at two densities; user edits are not overwritten."
+}

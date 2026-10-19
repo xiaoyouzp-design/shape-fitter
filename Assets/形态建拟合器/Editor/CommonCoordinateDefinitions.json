@@ -1,0 +1,1436 @@
+{
+  "schema": 1,
+  "definitions": [
+    {
+      "id": "left_eye_center_x",
+      "label_zh": "左眼中心横向位置",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_inner",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_upper",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 0,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_center_y",
+      "label_zh": "左眼中心高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_inner",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_upper",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 1,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_width",
+      "label_zh": "左眼开口横向宽度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_inner",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_height",
+      "label_zh": "左眼开口竖向高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_upper",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_corner_rise",
+      "label_zh": "左外眼角相对内眼角高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_outer",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_eye_inner",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_lid_offset",
+      "label_zh": "左眼睑中点相对眼角高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_eye_upper",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "left_eye_inner",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_center_x",
+      "label_zh": "左眉中心横向位置",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_brow_inner",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_middle",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_outer",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_center_y",
+      "label_zh": "左眉中心高度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_brow_inner",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_middle",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_outer",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_width",
+      "label_zh": "左眉横向宽度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_brow_inner",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_brow_outer",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_corner_rise",
+      "label_zh": "左外眉相对内眉高度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_brow_outer",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_brow_inner",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_arch",
+      "label_zh": "左眉中点拱高",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_brow_middle",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_brow_inner",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "left_brow_outer",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_eye_depth",
+      "label_zh": "左眼开口平均深度",
+      "region": "eye",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "left_eye_inner",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_upper",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 2,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "left_brow_depth",
+      "label_zh": "左眉平均深度",
+      "region": "brow",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "left_brow_inner",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_middle",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "left_brow_outer",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_center_x",
+      "label_zh": "右眼中心横向位置",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_inner",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_outer",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_upper",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 0,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_center_y",
+      "label_zh": "右眼中心高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_inner",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_outer",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_upper",
+          "axis": 1,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 1,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_width",
+      "label_zh": "右眼开口横向宽度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_outer",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_eye_inner",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_height",
+      "label_zh": "右眼开口竖向高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_upper",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_corner_rise",
+      "label_zh": "右外眼角相对内眼角高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_outer",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_eye_inner",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_lid_offset",
+      "label_zh": "右眼睑中点相对眼角高度",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_upper",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_eye_inner",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "right_eye_outer",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_center_x",
+      "label_zh": "右眉中心横向位置",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_brow_inner",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_middle",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_outer",
+          "axis": 0,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_center_y",
+      "label_zh": "右眉中心高度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_brow_inner",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_middle",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_outer",
+          "axis": 1,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_width",
+      "label_zh": "右眉横向宽度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_brow_outer",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_brow_inner",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_corner_rise",
+      "label_zh": "右外眉相对内眉高度",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_brow_outer",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_brow_inner",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_arch",
+      "label_zh": "右眉中点拱高",
+      "region": "brow",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_brow_middle",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "right_brow_inner",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "right_brow_outer",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_eye_depth",
+      "label_zh": "右眼开口平均深度",
+      "region": "eye",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "right_eye_inner",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_outer",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_upper",
+          "axis": 2,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 2,
+          "coefficient": 0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "right_brow_depth",
+      "label_zh": "右眉平均深度",
+      "region": "brow",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "right_brow_inner",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_middle",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "right_brow_outer",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "eye_separation",
+      "label_zh": "双眼中心横向间距",
+      "region": "eye",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_eye_inner",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_outer",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_upper",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "right_eye_lower",
+          "axis": 0,
+          "coefficient": 0.25
+        },
+        {
+          "point": "left_eye_inner",
+          "axis": 0,
+          "coefficient": -0.25
+        },
+        {
+          "point": "left_eye_outer",
+          "axis": 0,
+          "coefficient": -0.25
+        },
+        {
+          "point": "left_eye_upper",
+          "axis": 0,
+          "coefficient": -0.25
+        },
+        {
+          "point": "left_eye_lower",
+          "axis": 0,
+          "coefficient": -0.25
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "nose_tip_x",
+      "label_zh": "鼻尖x",
+      "region": "nose",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "nose_tip",
+          "axis": 0,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "nose_tip_y",
+      "label_zh": "鼻尖y",
+      "region": "nose",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "nose_tip",
+          "axis": 1,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "nose_tip_depth",
+      "label_zh": "鼻尖depth",
+      "region": "nose",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "nose_tip",
+          "axis": 2,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_center_x",
+      "label_zh": "嘴角中心横向位置",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_left",
+          "axis": 0,
+          "coefficient": 0.5
+        },
+        {
+          "point": "mouth_right",
+          "axis": 0,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_center_y",
+      "label_zh": "嘴角中心高度",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_left",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "mouth_right",
+          "axis": 1,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_width",
+      "label_zh": "嘴角横向宽度",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_right",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_left",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_corner_difference",
+      "label_zh": "左右嘴角高度差",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_right",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_left",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_gap_left",
+      "label_zh": "左唇间竖向开口",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_upper_left",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_lower_left",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_gap_center",
+      "label_zh": "中唇间竖向开口",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_upper_center",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_lower_center",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_gap_right",
+      "label_zh": "右唇间竖向开口",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_upper_right",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_lower_right",
+          "axis": 1,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_upper_curve",
+      "label_zh": "上唇中点相对两侧高度",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_upper_center",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_upper_left",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "mouth_upper_right",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_lower_curve",
+      "label_zh": "下唇中点相对两侧高度",
+      "region": "mouth",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "mouth_lower_center",
+          "axis": 1,
+          "coefficient": 1.0
+        },
+        {
+          "point": "mouth_lower_left",
+          "axis": 1,
+          "coefficient": -0.5
+        },
+        {
+          "point": "mouth_lower_right",
+          "axis": 1,
+          "coefficient": -0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_depth",
+      "label_zh": "唇口平均深度",
+      "region": "mouth",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "mouth_upper_left",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_upper_center",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_upper_right",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_lower_left",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_lower_center",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_lower_right",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_left",
+          "axis": 2,
+          "coefficient": 0.125
+        },
+        {
+          "point": "mouth_right",
+          "axis": 2,
+          "coefficient": 0.125
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "mouth_lip_depth_difference",
+      "label_zh": "上唇相对下唇深度",
+      "region": "mouth",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "mouth_upper_left",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "mouth_upper_center",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "mouth_upper_right",
+          "axis": 2,
+          "coefficient": 0.3333333333333333
+        },
+        {
+          "point": "mouth_lower_left",
+          "axis": 2,
+          "coefficient": -0.3333333333333333
+        },
+        {
+          "point": "mouth_lower_center",
+          "axis": 2,
+          "coefficient": -0.3333333333333333
+        },
+        {
+          "point": "mouth_lower_right",
+          "axis": 2,
+          "coefficient": -0.3333333333333333
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "cheek_width",
+      "label_zh": "颊横向宽度",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_face_cheek",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_face_cheek",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "cheek_center_x",
+      "label_zh": "颊中点横向位置",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_face_cheek",
+          "axis": 0,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_cheek",
+          "axis": 0,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "cheek_height",
+      "label_zh": "颊平均高度",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_face_cheek",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_cheek",
+          "axis": 1,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "cheek_depth",
+      "label_zh": "颊平均深度",
+      "region": "face",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "left_face_cheek",
+          "axis": 2,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_cheek",
+          "axis": 2,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "jaw_width",
+      "label_zh": "下颌横向宽度",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "right_face_jaw",
+          "axis": 0,
+          "coefficient": 1.0
+        },
+        {
+          "point": "left_face_jaw",
+          "axis": 0,
+          "coefficient": -1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        0,
+        1
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "jaw_center_x",
+      "label_zh": "下颌中点横向位置",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_face_jaw",
+          "axis": 0,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_jaw",
+          "axis": 0,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "jaw_height",
+      "label_zh": "下颌平均高度",
+      "region": "face",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "left_face_jaw",
+          "axis": 1,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_jaw",
+          "axis": 1,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "jaw_depth",
+      "label_zh": "下颌平均深度",
+      "region": "face",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "left_face_jaw",
+          "axis": 2,
+          "coefficient": 0.5
+        },
+        {
+          "point": "right_face_jaw",
+          "axis": 2,
+          "coefficient": 0.5
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "chin_x",
+      "label_zh": "下巴x",
+      "region": "chin",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "chin",
+          "axis": 0,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "chin_y",
+      "label_zh": "下巴y",
+      "region": "chin",
+      "dimension": "frontal",
+      "terms": [
+        {
+          "point": "chin",
+          "axis": 1,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.25,
+        1.25
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    },
+    {
+      "id": "chin_depth",
+      "label_zh": "下巴depth",
+      "region": "chin",
+      "dimension": "depth",
+      "terms": [
+        {
+          "point": "chin",
+          "axis": 2,
+          "coefficient": 1.0
+        }
+      ],
+      "unit": "fraction_of_frozen_neutral_face_width",
+      "display_range": [
+        -0.5,
+        0.5
+      ],
+      "control_formula": "100*(value-range_min)/(range_max-range_min); never clipped"
+    }
+  ],
+  "frame": "Frozen per-model zero-weight cheek width, chin Y origin, nose-tip Z origin and orientation from previous mappings; no target realignment.",
+  "scale": "Geometry values are fractions of baseline face width; report values*100 as percentage points. Control 0..100 uses shared fixed display ranges only.",
+  "limitations": "Signed Cartesian spans, not arc lengths/angles. Nose width and nostrils unavailable with one nose anchor. Common controls may exceed 0..100; never clipped. Individual attainable intervals cannot establish joint attainability."
+}

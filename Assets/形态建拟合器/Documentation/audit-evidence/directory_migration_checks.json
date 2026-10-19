@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": {
+    "legacy_folder_removed_from_assets": true,
+    "legacy_meta_removed_from_assets": true,
+    "root_meta_preserved": true,
+    "backup_contains_old_meta": true,
+    "only_one_plugin_assembly": true,
+    "whatif_does_not_install": true,
+    "fresh_install_has_chinese_directory": true,
+    "fresh_install_has_no_legacy_directory": true,
+    "duplicate_directories_rejected": true,
+    "duplicate_rejection_changes_no_files": true
+  }
+}

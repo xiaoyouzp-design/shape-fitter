@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "checks": {
+    "legacy_metric_recomputed": true,
+    "legacy_normalized_weights": true,
+    "repaired_metric_recomputed": true,
+    "repaired_normalized_weights": true,
+    "prior_recomputed": true,
+    "total_loss_recomputed": true,
+    "five_initializations": true,
+    "same_prior_center_across_all_initializations": true,
+    "actual_objective_selects_solution": true,
+    "all_start_objectives_decomposed": true,
+    "same_observation_input": true,
+    "same_candidates_and_original_weights": true,
+    "same_random_initializations": true,
+    "same_seed_and_start_count": true,
+    "windowId_preserved": true,
+    "root_preserved": true,
+    "annotation_preserved": true,
+    "imageHash_preserved": true,
+    "imageWidth_preserved": true,
+    "imageHeight_preserved": true,
+    "renderers_preserved": true,
+    "scenes_preserved": true,
+    "selection_preserved": true,
+    "installed_0_PhotoContourObjective.cs": true,
+    "installed_1_PhotoContourObjective.cs": true,
+    "installed_0_FittingOptimizer.cs": true,
+    "installed_1_FittingOptimizer.cs": true,
+    "installed_0_GenericPhotoModel.cs": true,
+    "installed_1_GenericPhotoModel.cs": true,
+    "installed_0_ModelCardFitWindow.cs": true,
+    "installed_1_ModelCardFitWindow.cs": true,
+    "installed_0_PhotoFitResultActions.cs": true,
+    "installed_1_PhotoFitResultActions.cs": true,
+    "installed_0_PhotoTraceEditor.cs": true,
+    "installed_1_PhotoTraceEditor.cs": true,
+    "installed_0_CommonCoordinateArchive.cs": true,
+    "installed_1_CommonCoordinateArchive.cs": true,
+    "objective_checks": true,
+    "density_fit_checks": true,
+    "preview_checks": true,
+    "compile_completed_no_errors": true,
+    "preview_keeps_new_fitted_result": true
+  },
+  "independent_metrics": {
+    "legacy": {
+      "balanced_rmse_pixels": 10.252372167240768,
+      "data_loss": 1.3531875324464457
+    },
+    "repaired": {
+      "balanced_rmse_pixels": 11.141082056781297,
+      "data_loss": 1.3961393766677974
+    }
+  },
+  "prior_sigma_unity": 25.0,
+  "noise_scale_original_pixels": 8.0,
+  "prior_strength": 0.25
+}

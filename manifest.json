@@ -1,0 +1,695 @@
+{
+  "version": "0.2.0-preview.1",
+  "algorithm": "SHA256",
+  "excluded": [
+    "manifest.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/clean_import_checks.json",
+      "bytes": 1259,
+      "sha256": "4d3be65b012dc446b070d01bd90a59b900312c305f4b1c1bec62d90e80c7f007"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/clean_import_checks.json.meta",
+      "bytes": 165,
+      "sha256": "2c3a5e1c99989d3efd47d2d27e8cacada29a8ecfcb82dda068bfe9c8a907bf52"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/density_fit_checks.json",
+      "bytes": 288,
+      "sha256": "fcb2da3052acdf11ec00b145c586b5ab5360cf28ebd8761834594dfe782479ea"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/density_fit_checks.json.meta",
+      "bytes": 158,
+      "sha256": "f76bf6623b3ea272f41f1ab2de0bd6f011771e53a801ca35a70214b5edb227a9"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/directory_migration_checks.json",
+      "bytes": 486,
+      "sha256": "dd35f4bf0d74baa52f3fcebe870eadffa0a0a34cf8d3dff3590bab8e298ec8a6"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/directory_migration_checks.json.meta",
+      "bytes": 165,
+      "sha256": "2f1ec84a6c603fa1b88c153fd77c7a01f7fe894daada9e7013b0f705978e85de"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/fixed_camera_comparison.json",
+      "bytes": 371,
+      "sha256": "49b932af10265ae0b77ec3bcb0b2ee0523b42c07069a3532cb96f7d2426e68f6"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/fixed_camera_comparison.json.meta",
+      "bytes": 158,
+      "sha256": "32b5d1c632f5662f0442cf5dcfec86a4864c62282d0cf668cde1b04ac0172b97"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/objective_checks.json",
+      "bytes": 792,
+      "sha256": "6752cd8d06b629b617374f1b0e91076df5bcc4e121c826d56ceeeb400f4e4829"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/objective_checks.json.meta",
+      "bytes": 158,
+      "sha256": "79a919e1e11d9af5c0f94f276e934e84660d072bf8acaad138e807afdccfdfae"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/package_checks.json",
+      "bytes": 1675,
+      "sha256": "95fbab1031f7ca67a83d343eeff049a757b61c5633b4ecc8c778845723b957a8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/package_checks.json.meta",
+      "bytes": 165,
+      "sha256": "1a0814f84f56b5204a52a85b47d2e60d188e7d8f798032acf93cd1b91b29063c"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/preview_checks.json",
+      "bytes": 388,
+      "sha256": "92cbf8d4f3cefb20631ee6b0847c22b50ad14171e8c2769472cfe5266a1d9870"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/preview_checks.json.meta",
+      "bytes": 158,
+      "sha256": "e9626226e0412f01f1211166b0bbb25190642600c65c60b58ed9a24ac1e09c8b"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/previous-repair-audit.json",
+      "bytes": 2097,
+      "sha256": "1ccb0786232178d9e6827aad3ea325dab0e004e133ee3303a06907095353278f"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence/previous-repair-audit.json.meta",
+      "bytes": 158,
+      "sha256": "5989974ba36cd107ebb67f4be28851903690fdc74a5ffca317eb602bff612474"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence.meta",
+      "bytes": 172,
+      "sha256": "6e87b66f832dcf7a23ae3ed84b3cd3972156bee7b03b6d1e2942ec324872c45e"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md",
+      "bytes": 1508,
+      "sha256": "38aa8c04fb78888f4f1eda1a9cbac13698679abd66270a0fb55e060b8bd654b6"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "4000a8a2bfc894ef38649ff42e88ba7a91ad1361d9d744f2f95def4e64917e3a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt",
+      "bytes": 1083,
+      "sha256": "949e4e69a653234dac8e5fe80a4181c8b9fec7ef05d8175d5d37a118d6361bc1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt.meta",
+      "bytes": 158,
+      "sha256": "dab24f32c55d919f812385ee6cf3a2ae527e1f27ac7b4c5e93f3ac63047f2fe0"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md",
+      "bytes": 1005,
+      "sha256": "6f9d55c6a26f4f2acd716c4a05abe2d405ee19aff877d6c1b2ca4c23a2bf7e9d"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md.meta",
+      "bytes": 158,
+      "sha256": "dcae1b4b5d38029a6857eb4e7d0629ae51996c2bc66cc9851cb71aef97e43bd2"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/LICENSE.mmdetection.txt",
+      "bytes": 11601,
+      "sha256": "91547c0441a35c69750628b834b9caf65e881a05d0b02e11d79250a4f9eed8a7"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/LICENSE.mmdetection.txt.meta",
+      "bytes": 158,
+      "sha256": "53f47ef9c841bd969edb76801a2fe7af96191ac982e43f0510537cfef43dabe1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/LICENSE.mmpose.txt",
+      "bytes": 11603,
+      "sha256": "d125421b289cd79bf03e8590858fa81c22dc95e2753b20bf80e6a3cc80a893f9"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/LICENSE.mmpose.txt.meta",
+      "bytes": 158,
+      "sha256": "1c8057813cbfe52dce17ca1f8770df4078a165eac55bb499b64c27bc5f96e167"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party.meta",
+      "bytes": 172,
+      "sha256": "b9e2a45a6b47d339b5b7a650da5c2a87b35334de0cab699a82e507064ed386aa"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/使用说明.zh-CN.md",
+      "bytes": 7476,
+      "sha256": "60f02ee4123950c6aa094a6d46590d954fc774c96954f57357acf0b9804ca487"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/使用说明.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "7561c471538ce15a9ff4ca657d39e5669b0bd6be0105d34a28135d0fa74f11d3"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/审计报告.zh-CN.md",
+      "bytes": 9993,
+      "sha256": "367379c01c12a2c4ced1059822249707c2521b458d503f93b9fe1f5b72dbae9e"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/审计报告.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "0eea6316cc31c4d5aaa03bb34efd2d66f0c50cb5231e99cf821cc12cf380a543"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/来源与许可.zh-CN.md",
+      "bytes": 1639,
+      "sha256": "1edb510fb77eba9e2f708fb5ecc0e2c43053f71fef1d18e2776579b927c06a01"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/来源与许可.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "ad67fe2f0b257725c77cbfbbc321507f0f453c9ac61102771285d68bf75c45f1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md",
+      "bytes": 4416,
+      "sha256": "2847c4ada23e30150f347aa94fb450a7185324f737d056fecc8da965159344bd"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/自动标点安装.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "06713c032eda227d4987cf274c8cd6826711cfedda11af7613cf979075bbd9f5"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation.meta",
+      "bytes": 172,
+      "sha256": "f9d81715afa3c6a97f0ceafe12f2500c5e06bf1bc382f4e9306017b9594a37f8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/AnimePhotoMapping.json",
+      "bytes": 1529,
+      "sha256": "b6c8d66480aeb979caa6283269c1fd7e3ef0aee952c601468e88ba90628098b2"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/AnimePhotoMapping.json.meta",
+      "bytes": 158,
+      "sha256": "35fc6f76cf699d042c1079e7b604f9816db03c24bc62330b2d0b04d7c3f53174"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/AvatarFitRenderer.cs",
+      "bytes": 7303,
+      "sha256": "5f17a2a1c0b44fc64f3ef745f6ee522570d49a22e4a4ce07ab5f767bd6539192"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/AvatarFitRenderer.cs.meta",
+      "bytes": 243,
+      "sha256": "2db42d33394661ec6eaba31fabdfffb0bcbffa871dda2ff0b4683267ffed1820"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateArchive.cs",
+      "bytes": 15908,
+      "sha256": "50fb6515f400b1f073f1065d94545fc3826809bf89cf9ed736774d2c7f433c39"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateArchive.cs.meta",
+      "bytes": 243,
+      "sha256": "0a30def792495df8adb7f7f281e2d033027949a7aa2647b717fb90d2ed0860f7"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateAuto.cs",
+      "bytes": 12679,
+      "sha256": "4bf6459494303448c3ac1a2ab2774b548eefc5902b175f57f4101c5f6f7e8749"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateAuto.cs.meta",
+      "bytes": 243,
+      "sha256": "acddad882aceb6b75d249ccac0044950c31bf1bb5298c098a009fdc6ab443c50"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateBuilderWindow.cs",
+      "bytes": 19398,
+      "sha256": "90b42be03e0d3c6d71c0dae9d0648eb7998da3dd232bd76ef5248adfb66c790c"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateBuilderWindow.cs.meta",
+      "bytes": 243,
+      "sha256": "80d365e4da32e466832e1c10bfe0a92fa318c27fcb748dae52bc560fc1ca0829"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateCalibration.cs",
+      "bytes": 7464,
+      "sha256": "1df9a2d49e5fcd27d600c095ebb7e016c43bd9b890cf4069881b9c0973398ef3"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateCalibration.cs.meta",
+      "bytes": 243,
+      "sha256": "7d764d76e264d7c440d180181d4f15ffda23fd99707bd847faa4e12aeda6f33d"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateDefinitions.json",
+      "bytes": 36687,
+      "sha256": "bee088c873c2b923064ec0d55ad85c9bacce5b949520fa3dc119488de2958802"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateDefinitions.json.meta",
+      "bytes": 158,
+      "sha256": "e959004936265beffc21f75e02db30a44f562ac8da31e0ac222e3fac5be0507a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateFitWindow.cs",
+      "bytes": 27095,
+      "sha256": "01fd4ccb46eaefa75259b2b17822d7028090a747f1fd858762e8b603405214cd"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateFitWindow.cs.meta",
+      "bytes": 243,
+      "sha256": "aa28b311a903a8c770e6ec20ffb048772a8be4bcf5dacc78a0b141801975822d"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateModel.cs",
+      "bytes": 13804,
+      "sha256": "a8b71f6ee45f7a0e8c7ebd233e83abd8dd53dae33b1826e71206826d89e2c451"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateModel.cs.meta",
+      "bytes": 243,
+      "sha256": "3b2e7cd0ebffd011c1f0d79ee1ac25a21b43566672c430142ee1a9857e36ecbb"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateProfileStore.cs",
+      "bytes": 7342,
+      "sha256": "c3d1e886314f482f14dac8fdaf48bdbfa9636b0ff0d3700efc10b7f3e03a5101"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateProfileStore.cs.meta",
+      "bytes": 243,
+      "sha256": "89c6d95dbad0518aa5814fdd723f0439f3ca2ea337be8c217b724cd4fd89e6ed"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateSolver.cs",
+      "bytes": 12546,
+      "sha256": "5d1a035580e790439b347958fdd0b6130c4d68f4cc099688b1f2c4a158342a26"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/CommonCoordinateSolver.cs.meta",
+      "bytes": 243,
+      "sha256": "63c91994c0652fe56005657892cb9029a06ea051f862ce71a86c947af8e16b89"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/FitPreviewCapture.cs",
+      "bytes": 4404,
+      "sha256": "82ee61029dcb1ecab2f08cb6066abf3b818e3918fb4b93e7bef176a1dbaf826b"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/FitPreviewCapture.cs.meta",
+      "bytes": 243,
+      "sha256": "0fca2c36a302cf495f4959f9bccde102b53813f2d23272af0293962725cfa7ee"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/FittingOptimizer.cs",
+      "bytes": 35945,
+      "sha256": "0be279f5397e4a762cdd454638e431a5c5acc467a092916555431e0329a3a610"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/FittingOptimizer.cs.meta",
+      "bytes": 243,
+      "sha256": "9652d66c3e6436b0a2a3e9f10c0fb674a9abb761563a12efa699968cabda38ce"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/GenericPhotoModel.cs",
+      "bytes": 8071,
+      "sha256": "7080511b888ec3d8a2c43467975ad3f1534ce5bb967df6cb78bb15edfe51c44a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/GenericPhotoModel.cs.meta",
+      "bytes": 243,
+      "sha256": "3ee36d78c258abb26e9f82702aa5b0075e0b2f45f65e9bc84dda59b66b45a7fa"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/GenericPhotoWindow.cs",
+      "bytes": 2554,
+      "sha256": "f1558db08587868b454f650b41bfc971060dea2d823d087271bf83c4b6ec20bd"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/GenericPhotoWindow.cs.meta",
+      "bytes": 243,
+      "sha256": "0a9207f8fa1bd867ce722a325443f6f4fafc09521b32f00aa3f8180484799e5a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/LandmarkCorrespondence.cs",
+      "bytes": 7899,
+      "sha256": "4989a59edae8972ad3ec10c0a20276aaf51ec2853e09173350767ab4bf114ff5"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/LandmarkCorrespondence.cs.meta",
+      "bytes": 243,
+      "sha256": "c28794713c4b0835ac7b4dc63b1fbfd446e552f7efdcfd2fbb354273f56c1d53"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/Localization.cs",
+      "bytes": 25321,
+      "sha256": "02e766da6589aeb2d3c92795f4f2a5e73c4acb66331a31dc92addb73f162c521"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/Localization.cs.meta",
+      "bytes": 243,
+      "sha256": "007d4dc3c60df935074f51cfd07ee01fafb1491b24ca12d192153352be35b7ad"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardData.cs",
+      "bytes": 2170,
+      "sha256": "f066b06c740ec115218934f6afb3806427aba07dcff269ad450f40639c970561"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardData.cs.meta",
+      "bytes": 243,
+      "sha256": "42ebc75ddf49b93cdb15826815ac3567fe3daad9d49c95dc414d27dc59d71bb4"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardFitWindow.cs",
+      "bytes": 50695,
+      "sha256": "11e9866ed01e65be2018d748e5da8ef762920948cb38c44166107bdd1875f328"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardFitWindow.cs.meta",
+      "bytes": 243,
+      "sha256": "97c482f53f1dc9d318dbc545d03cac78e2b7bd5dab084dc96846e80065a51ff8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardFxGenerator.cs",
+      "bytes": 12377,
+      "sha256": "b51ba6e9762209043782e9f2baf79f3d8f8483ce58538cff59728ac779b8a27f"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardFxGenerator.cs.meta",
+      "bytes": 243,
+      "sha256": "bd22c3aece16bba454aafb2a50024e85859a3be541b00df44de36dff8fa73371"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardIO.cs",
+      "bytes": 14137,
+      "sha256": "185fc053137dea1801e56f1b1e36ec73f001180c6d3d15856ac59bbae2b9fe70"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardIO.cs.meta",
+      "bytes": 243,
+      "sha256": "c9b50ec21d222fe9fb62384d8e7994381c3522306e06e702f42060ed89dc33e1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardMenu.cs",
+      "bytes": 2356,
+      "sha256": "d897796d835ef60001c0953bd0a926b397a185098f4a416b1692b89f2ec7a765"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardMenu.cs.meta",
+      "bytes": 243,
+      "sha256": "9c134983889d2e78658536a6e9ebac4e1be9119e72b1f85d2d28bcedbd0cb2e4"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardWindow.cs",
+      "bytes": 17226,
+      "sha256": "dade767582fc78a3cba11b74b81b3a70259bc70738dd134a194b82781ee6ead6"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/ModelCardWindow.cs.meta",
+      "bytes": 243,
+      "sha256": "0a1e6e501081a431dfc37af9c9c3b5ff9cf361105dca768485ed334440e6f3e7"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoAutoLandmarks.cs",
+      "bytes": 12829,
+      "sha256": "3f939b0d6cd5c5658244512b832c35c250b805519ec519a70ff3f1c4f50328dd"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoAutoLandmarks.cs.meta",
+      "bytes": 243,
+      "sha256": "490a1f37cecf0c987210646fb5517d62f67228af54b587c0534df668aa8e1c7f"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoAutoMapping.json",
+      "bytes": 1550,
+      "sha256": "b059423c11f16842128c8b48d12e50eef59912b192946c2ac7479a07013b3ef6"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoAutoMapping.json.meta",
+      "bytes": 158,
+      "sha256": "0f2d8ec6d57e276b4874a66903b5ecc49afcc9e093c57f3e2a6ab50aa17c07af"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoContourEditor.cs",
+      "bytes": 9286,
+      "sha256": "225b855d8e59ca01208992f9f6055628bda7fa72daf8f0e0102eb32076c52600"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoContourEditor.cs.meta",
+      "bytes": 243,
+      "sha256": "d24ab219472b9ec7a25e08c59a7594a4dbd6b87e9f2a8abafaf7904f86415615"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoContourObjective.cs",
+      "bytes": 11988,
+      "sha256": "6c2fe922c95ceb5c00c595f34ca8c9e817d321a3e652a9b0aeec225355b4f70c"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoContourObjective.cs.meta",
+      "bytes": 243,
+      "sha256": "3d24da63ccd4f2ce6d0a198fc47b6f74b465697ecbc519bf766a7d7a19bbdc5b"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoDetailLandmarks.cs",
+      "bytes": 2817,
+      "sha256": "94ee45a7c5db60ef32c1feebd4ff2a9dd151def7782598e72628cffbc57fcbb7"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoDetailLandmarks.cs.meta",
+      "bytes": 243,
+      "sha256": "689133e5155c27c2d8c8aa1c55d824c96e4afb12b38b728d94c99372e0f21c55"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoFitResultActions.cs",
+      "bytes": 11725,
+      "sha256": "88206c53e2bff7ad8024193188fa32af35c81a43e3919990cab364aadcabff64"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoFitResultActions.cs.meta",
+      "bytes": 243,
+      "sha256": "269c86fdf52242d4cb0dc719af525f21100bedc5afd969113580580709687594"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoImageViewport.cs",
+      "bytes": 6107,
+      "sha256": "0ea8eb5d2bf6978c7aab6fb2265a42f99b4b78d5d36e99552f04af4aa65255fb"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoImageViewport.cs.meta",
+      "bytes": 243,
+      "sha256": "eb41f809a2980a22b717961cd40e525909357995bb95e4ca42fc39669bac6742"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoLandmarkTemplate.cs",
+      "bytes": 10281,
+      "sha256": "f650bb8fc6a92822a8b0045e1fc3a93bb22c6ac667533c699773287274f1c6d8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoLandmarkTemplate.cs.meta",
+      "bytes": 243,
+      "sha256": "4c7563cc03580137ba89433e12a44ebf971d6c8ef551176375f2d3bb9298651c"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoManualEditor.cs",
+      "bytes": 7950,
+      "sha256": "8849f5394298e2baee5c9a87f8be87e53d8e29ef1f4deb91cd51b799cd4e1b5a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoManualEditor.cs.meta",
+      "bytes": 243,
+      "sha256": "5171621606fd436cecb78fa2d5c42365dfc33546c59bcdd9073c2a8c7e537fef"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoTraceEditor.cs",
+      "bytes": 12362,
+      "sha256": "07459c15a6ce838b46359afeef5619a771a824295d9ec8dfa6b0bfe2a90ae8d5"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoTraceEditor.cs.meta",
+      "bytes": 243,
+      "sha256": "d48c7a3535992e419a17f48c71b2e0160d3d2069f638497b8ab99d1cff9018c7"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoTraceSampler.cs",
+      "bytes": 8858,
+      "sha256": "dd9244909c53d6b58bf7b08cc35a10563bb106ac03e8153cf5621e31b5842a54"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PhotoTraceSampler.cs.meta",
+      "bytes": 243,
+      "sha256": "0f8bfad5d535e9320a8a7370eb41858c85df693ec18d940a8a19d3e777885490"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PlumCoordinateProfile.json",
+      "bytes": 9455,
+      "sha256": "6f33941411f10988e1ccd697fa726ee1e832e9a2bb910a7ca9a1fbe5584737a4"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PlumCoordinateProfile.json.meta",
+      "bytes": 158,
+      "sha256": "0fe9522fe98be18504457631026086b4a5dd5fb0fa643ebfef6d6e611c35be17"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PngCodec.cs",
+      "bytes": 14370,
+      "sha256": "306d81a24828943b16a56f4de7e16423082e9bd85424622d64cf2ea914c17b67"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/PngCodec.cs.meta",
+      "bytes": 243,
+      "sha256": "6513b3daebd53e968de166604787ff20054bd6c6d6a74d134589562e7188b1e0"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/QrCode.cs",
+      "bytes": 21175,
+      "sha256": "3955d0f7409d0861646bcac4b4c7ffe02fe36b77c2d6609d10145eb99151aa82"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/QrCode.cs.meta",
+      "bytes": 243,
+      "sha256": "f8021449b388b0fd98263b6313a160a4096596f289380dfe7e32e498c1d57cb9"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/RuruneCoordinateProfile.json",
+      "bytes": 12020,
+      "sha256": "67da6dc4a334766e725d3d9c88adbf804c334f14236202057a8ca25ae73520a1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/RuruneCoordinateProfile.json.meta",
+      "bytes": 158,
+      "sha256": "0c2b3b2e7ecc52a4f0ec2b13c48f9689b688705578e202fabcf2a3c322d42717"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/RuruneLandmarkTemplate.json",
+      "bytes": 16221,
+      "sha256": "202d7b5bc599a0fbcfe2ec35d7b11d9aeb3769319040eb2ca1f5669df7d6a803"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/RuruneLandmarkTemplate.json.meta",
+      "bytes": 158,
+      "sha256": "b178fad3a3d885ebc34d8e60b9b9abcdb3eb4da4055b4b00fe6d157c66818f9a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/SilhouetteMask.cs",
+      "bytes": 4817,
+      "sha256": "e0734c971331d72061b9c7a518236f2d30837d8736cccbad2aa223081fabf4b4"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/SilhouetteMask.cs.meta",
+      "bytes": 243,
+      "sha256": "e53a9336a8d6f2cb9b52ee7a96b6b264754817466e644fed702ed690717ac010"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/VrcModelCard.Editor.asmdef",
+      "bytes": 387,
+      "sha256": "6bc40fdaa22d1efa9140eb47f72534dfdf2ecca6325a711b4e79b43ab7b18053"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor/VrcModelCard.Editor.asmdef.meta",
+      "bytes": 166,
+      "sha256": "bc59cfe5b2f467157b31323bdeb54340d32ec4f92658ef86593f6de99f025336"
+    },
+    {
+      "path": "Assets/形态建拟合器/Editor.meta",
+      "bytes": 172,
+      "sha256": "46ce3a86032194624f175ca053f4e55ee25175c78739a516ccd85ba89fc791f3"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/anime_photo_landmarks.py",
+      "bytes": 7782,
+      "sha256": "0c5b66eea915b08d7a3dd89ded2f9e9b0e3ccf709b646c13e2fa543946362d56"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/anime_photo_landmarks.py.meta",
+      "bytes": 155,
+      "sha256": "bdc7af86141be361ecd1696f558df08ecfef448415e84149f83dd671ee702a84"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/photo_auto_landmarks.py",
+      "bytes": 4455,
+      "sha256": "8c7f904fdc73cef1def558373286f5c9157bbb61bf4f86ba518ec2b66176553d"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/photo_auto_landmarks.py.meta",
+      "bytes": 155,
+      "sha256": "22e138f8fb67d114acf8e946a1ff3da62cf5f01009727d5f7dc50cd69332852a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/requirements-anime-lock.txt",
+      "bytes": 531,
+      "sha256": "37efbdd5e82bc7f7f6de4a0234333de1eef23e964be8a3f02b92ba16e440057c"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/requirements-anime-lock.txt.meta",
+      "bytes": 158,
+      "sha256": "1a881117aeaef2db43a72fa702a427cfe25d965441cd7e5c67f745873b055e7b"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/requirements-mediapipe-lock.txt",
+      "bytes": 342,
+      "sha256": "091bb28c236a205491c45ca6628529928fd546f8c79a59139c91405909e38db3"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/requirements-mediapipe-lock.txt.meta",
+      "bytes": 158,
+      "sha256": "bbf0211b4a1971001d9c58d2613fca3acfbc2c69e5643ea35ebaf62da1adb5cd"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/setup_anime_models.py",
+      "bytes": 2290,
+      "sha256": "6dd4f27d0ee96cf0149460da4a17aad4c7b26151635d0f45f918693cf8789296"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks/setup_anime_models.py.meta",
+      "bytes": 155,
+      "sha256": "719b69c0dcf99263130ed3fefda0760e4ad0710c701bad938e57cca22b445e50"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks.meta",
+      "bytes": 172,
+      "sha256": "5e353722e5dea115263b349b1f93c3fd28d977cb2b1fe02a957c41c2661e4dcb"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools.meta",
+      "bytes": 172,
+      "sha256": "d766c0d9ac64c9b863c4a66ee832d546ab1a1ad025469c9ca345fe7f95f759d4"
+    },
+    {
+      "path": "Assets/形态建拟合器.meta",
+      "bytes": 172,
+      "sha256": "3a236fc5a8ee72c23e130addaacd60aa9a52d14d26bf751bc1e7028a470e7d01"
+    },
+    {
+      "path": "Install.ps1",
+      "bytes": 2959,
+      "sha256": "f26a8d95292f6a89c1c9509a7883924e896fc78764de500453f2ef9f8ece352e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2277,
+      "sha256": "aea240c94e956da1ed48d0991d151c37e8eace20fbd249ef6fd4ff36e0fd3eb3"
+    },
+    {
+      "path": "release.json",
+      "bytes": 6712,
+      "sha256": "521d09e74241172f38979f4574f7a392ba426320bc6ca079066d65293e69cc41"
+    },
+    {
+      "path": "Verify-Package.ps1",
+      "bytes": 1065,
+      "sha256": "627ef2b188f110e4984fbf12a3129b0428f24287411bd3e8de4c7b2a0c8539d8"
+    }
+  ]
+}

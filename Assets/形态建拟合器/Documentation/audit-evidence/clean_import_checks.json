@@ -1,0 +1,33 @@
+{
+    "passed": true,
+    "unityVersion": "2022.3.22f1",
+    "error": "",
+    "checks": [
+        "editor_assembly_loaded_without_vrchat_sdk_or_unityagent",
+        "type_ModelCardFitWindow",
+        "type_CommonCoordinateFitWindow",
+        "type_CommonCoordinateBuilderWindow",
+        "type_CommonCoordinateArchive",
+        "type_PhotoContourObjective",
+        "type_PhotoFitResultActions",
+        "type_ModelCardIO",
+        "type_PngCodec",
+        "menu_形态键拟合/图片拟合",
+        "menu_形态键拟合/模型拟合",
+        "menu_形态键拟合/构建模型坐标",
+        "menu_形态键拟合/拟合存档",
+        "52_coordinate_definitions_load",
+        "config_RuruneCoordinateProfile",
+        "profile_valid_RuruneCoordinateProfile",
+        "config_PlumCoordinateProfile",
+        "profile_valid_PlumCoordinateProfile",
+        "contour_sampling_works_after_import",
+        "ordered_matching_exact_curve",
+        "documented_objective_defaults",
+        "portable_detector_script_found_in_imported_assets",
+        "portable_python_default_is_project_local",
+        "only_chinese_plugin_directory_after_import",
+        "chinese_generated_output_directory",
+        "clean_project_has_no_required_external_plugin"
+    ]
+}
