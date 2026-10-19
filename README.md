@@ -4,6 +4,16 @@ Unity 编辑器中的脸部形态键拟合工具：根据参考图片或另一�
 
 [下载安装包与完整 ZIP](https://github.com/xiaoyouzp-design/shape-fitter/releases/tag/v0.2.0-preview.2)
 
+## 视频教程
+
+约 **5 分 01 秒**，1080p，中文配音与字幕，含 15 个章节。从安装、坐标构建和图片标记，讲到拟合预览、应用、动画与存档。
+
+[![点击观看形态建拟合器使用教程](教程/封面.jpg)](https://github.com/xiaoyouzp-design/shape-fitter/releases/download/v0.2.0-preview.2/shape-fitter-tutorial-1080p.mp4)
+
+[观看／下载视频](https://github.com/xiaoyouzp-design/shape-fitter/releases/download/v0.2.0-preview.2/shape-fitter-tutorial-1080p.mp4) · [章节与解说词](教程/说明视频.md) · [字幕](教程/字幕.zh-CN.srt)
+
+采用实际界面截图和操作示意，不是连续现场录屏。
+
 ## 安装
 
 已验证环境：Windows / Unity 2022.3.22f1。当前版本：0.2.0-preview.2（预览版）。

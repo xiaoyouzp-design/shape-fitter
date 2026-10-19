@@ -7,6 +7,31 @@
   ],
   "files": [
     {
+      "path": "Assets/形态建拟合器.meta",
+      "bytes": 172,
+      "sha256": "3a236fc5a8ee72c23e130addaacd60aa9a52d14d26bf751bc1e7028a470e7d01"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation.meta",
+      "bytes": 172,
+      "sha256": "f9d81715afa3c6a97f0ceafe12f2500c5e06bf1bc382f4e9306017b9594a37f8"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md",
+      "bytes": 1958,
+      "sha256": "2419ab0600d0e84cb61b870cad37182e50afb5ac34b574c86429b94130031a69"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md.meta",
+      "bytes": 165,
+      "sha256": "4000a8a2bfc894ef38649ff42e88ba7a91ad1361d9d744f2f95def4e64917e3a"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/audit-evidence.meta",
+      "bytes": 172,
+      "sha256": "6e87b66f832dcf7a23ae3ed84b3cd3972156bee7b03b6d1e2942ec324872c45e"
+    },
+    {
       "path": "Assets/形态建拟合器/Documentation/audit-evidence/clean_import_checks.json",
       "bytes": 1259,
       "sha256": "4d3be65b012dc446b070d01bd90a59b900312c305f4b1c1bec62d90e80c7f007"
@@ -107,39 +132,9 @@
       "sha256": "5989974ba36cd107ebb67f4be28851903690fdc74a5ffca317eb602bff612474"
     },
     {
-      "path": "Assets/形态建拟合器/Documentation/audit-evidence.meta",
+      "path": "Assets/形态建拟合器/Documentation/third-party.meta",
       "bytes": 172,
-      "sha256": "6e87b66f832dcf7a23ae3ed84b3cd3972156bee7b03b6d1e2942ec324872c45e"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md",
-      "bytes": 1958,
-      "sha256": "2419ab0600d0e84cb61b870cad37182e50afb5ac34b574c86429b94130031a69"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/CHANGELOG.zh-CN.md.meta",
-      "bytes": 165,
-      "sha256": "4000a8a2bfc894ef38649ff42e88ba7a91ad1361d9d744f2f95def4e64917e3a"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt",
-      "bytes": 1083,
-      "sha256": "949e4e69a653234dac8e5fe80a4181c8b9fec7ef05d8175d5d37a118d6361bc1"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt.meta",
-      "bytes": 158,
-      "sha256": "dab24f32c55d919f812385ee6cf3a2ae527e1f27ac7b4c5e93f3ac63047f2fe0"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md",
-      "bytes": 1005,
-      "sha256": "6f9d55c6a26f4f2acd716c4a05abe2d405ee19aff877d6c1b2ca4c23a2bf7e9d"
-    },
-    {
-      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md.meta",
-      "bytes": 158,
-      "sha256": "dcae1b4b5d38029a6857eb4e7d0629ae51996c2bc66cc9851cb71aef97e43bd2"
+      "sha256": "b9e2a45a6b47d339b5b7a650da5c2a87b35334de0cab699a82e507064ed386aa"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/third-party/LICENSE.mmdetection.txt",
@@ -162,9 +157,24 @@
       "sha256": "1c8057813cbfe52dce17ca1f8770df4078a165eac55bb499b64c27bc5f96e167"
     },
     {
-      "path": "Assets/形态建拟合器/Documentation/third-party.meta",
-      "bytes": 172,
-      "sha256": "b9e2a45a6b47d339b5b7a650da5c2a87b35334de0cab699a82e507064ed386aa"
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt",
+      "bytes": 1083,
+      "sha256": "949e4e69a653234dac8e5fe80a4181c8b9fec7ef05d8175d5d37a118d6361bc1"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-MIT.txt.meta",
+      "bytes": 158,
+      "sha256": "dab24f32c55d919f812385ee6cf3a2ae527e1f27ac7b4c5e93f3ac63047f2fe0"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md",
+      "bytes": 1005,
+      "sha256": "6f9d55c6a26f4f2acd716c4a05abe2d405ee19aff877d6c1b2ca4c23a2bf7e9d"
+    },
+    {
+      "path": "Assets/形态建拟合器/Documentation/third-party/hysts-THIRD_PARTY_LICENSES.md.meta",
+      "bytes": 158,
+      "sha256": "dcae1b4b5d38029a6857eb4e7d0629ae51996c2bc66cc9851cb71aef97e43bd2"
     },
     {
       "path": "Assets/形态建拟合器/Documentation/使用说明.zh-CN.md",
@@ -217,9 +227,9 @@
       "sha256": "06713c032eda227d4987cf274c8cd6826711cfedda11af7613cf979075bbd9f5"
     },
     {
-      "path": "Assets/形态建拟合器/Documentation.meta",
+      "path": "Assets/形态建拟合器/Editor.meta",
       "bytes": 172,
-      "sha256": "f9d81715afa3c6a97f0ceafe12f2500c5e06bf1bc382f4e9306017b9594a37f8"
+      "sha256": "46ce3a86032194624f175ca053f4e55ee25175c78739a516ccd85ba89fc791f3"
     },
     {
       "path": "Assets/形态建拟合器/Editor/AnimePhotoMapping.json",
@@ -632,9 +642,14 @@
       "sha256": "bc59cfe5b2f467157b31323bdeb54340d32ec4f92658ef86593f6de99f025336"
     },
     {
-      "path": "Assets/形态建拟合器/Editor.meta",
+      "path": "Assets/形态建拟合器/Tools.meta",
       "bytes": 172,
-      "sha256": "46ce3a86032194624f175ca053f4e55ee25175c78739a516ccd85ba89fc791f3"
+      "sha256": "d766c0d9ac64c9b863c4a66ee832d546ab1a1ad025469c9ca345fe7f95f759d4"
+    },
+    {
+      "path": "Assets/形态建拟合器/Tools/AutoLandmarks.meta",
+      "bytes": 172,
+      "sha256": "5e353722e5dea115263b349b1f93c3fd28d977cb2b1fe02a957c41c2661e4dcb"
     },
     {
       "path": "Assets/形态建拟合器/Tools/AutoLandmarks/anime_photo_landmarks.py",
@@ -687,29 +702,19 @@
       "sha256": "719b69c0dcf99263130ed3fefda0760e4ad0710c701bad938e57cca22b445e50"
     },
     {
-      "path": "Assets/形态建拟合器/Tools/AutoLandmarks.meta",
-      "bytes": 172,
-      "sha256": "5e353722e5dea115263b349b1f93c3fd28d977cb2b1fe02a957c41c2661e4dcb"
-    },
-    {
-      "path": "Assets/形态建拟合器/Tools.meta",
-      "bytes": 172,
-      "sha256": "d766c0d9ac64c9b863c4a66ee832d546ab1a1ad025469c9ca345fe7f95f759d4"
-    },
-    {
-      "path": "Assets/形态建拟合器.meta",
-      "bytes": 172,
-      "sha256": "3a236fc5a8ee72c23e130addaacd60aa9a52d14d26bf751bc1e7028a470e7d01"
-    },
-    {
       "path": "Install.ps1",
       "bytes": 2959,
       "sha256": "f26a8d95292f6a89c1c9509a7883924e896fc78764de500453f2ef9f8ece352e"
     },
     {
       "path": "README.md",
-      "bytes": 2381,
-      "sha256": "e8b736466b1966935ca6ab54ec1f56c203720d5eccefa425ed45dcd06c65fa09"
+      "bytes": 3011,
+      "sha256": "4bc03837fc524ebaa52f5b05d50bb792a8daeb36f901c9a22a05f2961334cf34"
+    },
+    {
+      "path": "Verify-Package.ps1",
+      "bytes": 1065,
+      "sha256": "627ef2b188f110e4984fbf12a3129b0428f24287411bd3e8de4c7b2a0c8539d8"
     },
     {
       "path": "release.json",
@@ -717,9 +722,19 @@
       "sha256": "fff8d5816514f5914744be428cc26aae2aeaf3b410cb493a11f497aae42949d3"
     },
     {
-      "path": "Verify-Package.ps1",
-      "bytes": 1065,
-      "sha256": "627ef2b188f110e4984fbf12a3129b0428f24287411bd3e8de4c7b2a0c8539d8"
+      "path": "教程/字幕.zh-CN.srt",
+      "bytes": 4542,
+      "sha256": "d0b772bd6093aeb562ea672283efa5419c07286276d7aef7d730137488eb15fb"
+    },
+    {
+      "path": "教程/封面.jpg",
+      "bytes": 202604,
+      "sha256": "401e985cd3649e41f0078d1d8f66bef6b14b50d7eb3b726a13834c7ad4ad3f73"
+    },
+    {
+      "path": "教程/说明视频.md",
+      "bytes": 4336,
+      "sha256": "b3e212ef20fd526ea6956534a4b85cecbfb0eded3835e22a289e4c117b6b1cd3"
     }
   ]
 }
